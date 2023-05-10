@@ -1,4 +1,4 @@
-# the program make a port scanner.
+# the program makes a port scanner.
 # this script is not really useful because it takes around 48 hours to scan all the ports.
 
 import time
@@ -30,7 +30,7 @@ print("-" * 50)
 
 try:
 
-    # will scan ports between 1 to 65,535.
+    # scaning ports between 1 to 65,535.
     for port in range(1, 65535):
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         socket.setdefaulttimeout(1)
