@@ -1,4 +1,4 @@
-# the program makes a port scanner.
+# this program makes a port scanner.
 # this script is not really useful because it takes around 48 hours to scan all the ports.
 
 import time
