@@ -1,4 +1,4 @@
-# program makes HTTP status request checker.
+# This program makes an HTTP request status checker.
 import datetime
 import requests
 
